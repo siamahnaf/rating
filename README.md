@@ -18,23 +18,22 @@ I've been searching for a reliable React rating component for Next.js with serve
 - All necessary options
 
 # Demo
-See <a href="https://next-rating-component.vercel.app/">Live Demo</a>
+See <a href="https://rating-demo.siamahnaf.com/">Live Demo</a>
 
 # Installation
 
 ```bash
-$ npm i next-rating-component
+$ npm i @siamf/rating
 ```
 
 # App Router
 ```javascript
 "use client"
 import { useState } from "react";
-import { Rating } from "next-rating-component";
+import { Rating } from "@siamf/rating";
 
 const MyComponent = () => {
     const [rating, setRating] = useState<number>(0);
-
 
     return (
         <div>
@@ -137,5 +136,4 @@ export default MyComponent;
 
 - Author - [Siam Ahnaf](https://www.siamahnaf.com/)
 - Website - [https://www.siamahnaf.com/](https://www.siamahnaf.com/)
-- Twitter - [https://twitter.com/siamahnaf198](https://twitter.com/siamahnaf198)
 - Github - [https://github.com/siamahnaf](https://github.com/siamahnaf)
