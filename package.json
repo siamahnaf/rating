@@ -1,6 +1,6 @@
 {
   "name": "rating",
-  "version": "0.1.0",
+  "version": "1.5.2",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@siamf/rating": "^1.5.0",
+    "@siamf/rating": "^1.5.2",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
