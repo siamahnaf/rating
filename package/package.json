@@ -1,12 +1,50 @@
 {
-  "name": "@siamf/package",
-  "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "name": "@siamf/rating",
+  "version": "1.5.0",
+  "description": "A React rating component that supports Next.js SSR and allows fractional step ratings for precise user input. The component is customizable, lightweight, and optimized for performance.",
+  "homepage": "https://rating-demo.siamahnaf.com/",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "author": {
+    "name": "Siam Ahnaf",
+    "email": "mail@siamahnaf.com",
+    "url": "https://www.siamahnaf.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react rating",
+    "react-rating component",
+    "nextjs rating component",
+    "react-next rating",
+    "next rating",
+    "simple rating component",
+    "e-commerce rating",
+    "rating product",
+    "react rating star"
+  ],
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/siamahnaf/rating",
+    "url": "https://github.com/siamahnaf/rating"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
   }
 }
