@@ -6,7 +6,7 @@
 </picture>
 <br/> <br/>
 
-# Next Rating Component
+# @siamf/rating
 I've been searching for a reliable React rating component for Next.js with server-side rendering (SSR) support and essential features like fractional ratings. After trying several existing libraries over the past five days, I've found that many either don't work well with SSR, lack crucial functionality, or don't support fractions. Therefore, I've decided to build my own customizable rating component in TypeScript to meet common project needs.
 
 <a href="https://www.buymeacoffee.com/siamahnaf" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
