@@ -1,6 +1,6 @@
 {
   "name": "@siamf/rating",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "A React rating component that supports Next.js SSR and allows fractional step ratings for precise user input. The component is customizable, lightweight, and optimized for performance.",
   "homepage": "https://rating-demo.siamahnaf.com/",
   "main": "dist/cjs/index.js",
